@@ -1,0 +1,59 @@
+/** * template1-alt2 */
+
+.btn {
+	background-color:#ffea00;
+	color:#616161;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:18px;
+	line-height:30px;
+	border-radius:  9px;
+	-webkit-border-radius:  9px;
+	-moz-border-radius:  9px;
+	border:0;
+	
+	width:175px;
+	padding-top:10px;
+	padding-bottom:10px;
+    cursor:pointer;
+    margin-right:175px;
+    margin-top:40px;
+    margin-bottom:30px;
+    box-shadow: 0px 4px #fbc02d;
+    font-family:'Comfortaa';
+    transition: all 0.4s;
+}         
+.btn:hover {
+width:200px;
+background-color:#9575cd;
+color:white;
+box-shadow: 0px 4px #673ab7;
+}   
+.btn:active {
+box-shadow: 0px 0px #673ab7;
+}    
+
+.nav li {
+    display:inline-block;
+}
+body {
+background-color:#607d8b;
+}
+.header {
+color:#ffea00;
+font-family:'Comfortaa';
+font-size:50px;
+margin-left:460px
+
+}
+.banner {
+margin-left:-40px;
+color:#ffea00;
+padding-top:250px;
+padding-bottom:250px;
+padding-left:700px;
+padding-right:10px;
+font-family:'Comfortaa';
+font-size:25px;
+border-style:dashed;
+
+}
