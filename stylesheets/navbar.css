@@ -27,6 +27,7 @@ box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
 }
 .button span {  
 cursor: pointer;  
+font-family:'Lobster';
 display: inline-block;  
 position: relative;  
 transition: 0.4s;}
