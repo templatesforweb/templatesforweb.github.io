@@ -1,0 +1,82 @@
+.box {
+ background-color:white;
+ color:lightblue;
+ width:300px;
+ height:300px;
+ margin-top:50px;
+ margin-left:100px;
+ border-radius:3px;
+ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ }
+ .box .googleplus {
+ position:relative;
+ top:110px;
+ color:#dc473a;
+ vertical-align:text-center;
+ horizontal-align:text-center;
+ margin-left:40px;
+ text-decoration:none;
+ text-align:center;
+ font-size:55px;
+ font-family:'Comfortaa';
+ }
+ .box .twitch {
+ position:relative;
+ top:110px;
+ color:#6442a6;
+
+ text-decoration:none;
+ font-size:55px;
+ font-family:'Comfortaa';
+ }
+ #twitchbox {
+ cursor:pointer;
+ transition: all 0.4s;
+ }
+ #twitchbox:hover{
+ color:white;
+ background-color:#6442a6;
+
+ }
+ #twitchbox .twitch {
+ padding-left:55px;
+ padding-right:75px;
+ padding-top:110px;
+ padding-bottom:121px;
+ transition: all 0.4s;
+ }
+ #twitchbox .twitch:hover {
+ color:white;
+ 
+ }
+ body {
+ background-color:lightgrey;
+ }
+.navigation {
+ margin-top:50px;
+}
+ .navigation a{
+text-decoration:none;
+color:grey;
+background-color:white;
+margin-right:5px;
+padding:30px;
+font-family:'Arial';
+font-size:30px;
+
+transition: all 0.4s ease-in-out;
+}
+.navigation a:hover {
+background-color:grey;
+color:white;
+}
+
+ .navigation a span {
+border-bottom:solid 4px white;
+padding-bottom:10px;
+
+ }
+ .navigation a span:hover {
+content:'
+ border-color:white;
+ }
