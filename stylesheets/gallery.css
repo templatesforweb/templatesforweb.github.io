@@ -1,0 +1,114 @@
+.button {
+  text-align:center;
+  cursor:pointer;
+  border:none;
+  background-color:#2081bd;
+  color:white;
+  width:350px;
+  padding:20px;
+  float:left;
+  margin-left:-20px;
+  margin-top:0px;
+  line-height:20px;
+  font-size:25px;
+  border-radius:10px;
+  transition: all 0.4s;
+}
+.button:hover {
+  background-color:white;
+  color:#2081bd;
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+}
+.button span {  
+  cursor: pointer;  
+  font-family:'Lobster';
+  display: inline-block;  
+  position: relative;  
+  transition: 0.4s;
+}
+.button span:after 
+{  
+  content: '»';  
+  position: absolute;  
+  opacity: 0;  
+  top: 0;  
+  right: -150px;  
+  transition: 0.4s;
+}
+.button:hover span {  
+  padding-right: 25px;
+}
+.button:hover span:after {  
+  opacity: 1;  
+  right: 0;}
+#active {
+  background-color:#ff7200;
+
+}
+#active:hover {
+  background-color:white;
+  color:#ff7200;
+}
+body {background:url('http://i.imgur.com/7nKsybG.png') ;background-size: 760px 760px;}
+
+.gallery {
+ margin-top:100px;
+  margin-left:25px;
+}
+.img {
+  text-decoration: none;
+  text-align: center;
+  width:300px;
+  height: 300px;
+  display:inline-block;
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12170533/e37e7942-b54a-11e5-819a-8a447f7eedff.png'); 
+ background-size:300px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color:white;
+ margin-left:100px;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+  transition: all 0.4s;
+}
+.hello {
+  display: block;
+ position: relative;
+ font-size:25px;
+  font-family:'Comfortaa';
+  font-weight: 300;
+color:white;
+  background-color:rgba(0, 0, 0, 0.4);
+  
+  transition: all 0.8s;
+  
+}
+
+.img2 {
+  text-decoration: none;
+  text-align: center;
+  width:300px;
+  height: 300px;
+  display:inline-block;
+  background-image: url('http://img12.deviantart.net/921c/i/2016/005/d/5/gemifrap_avatar_by_kostgames-d9mu7kt.png'); 
+  background-size:300px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color:white;
+  margin-left:100px;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+  transition: all 0.4s;
+}
+.hello2 {
+  display: block;
+  position: relative;
+  font-size:25px;
+  font-family:'Comfortaa';
+  font-weight: 300;
+  color:white;
+  background-color:rgba(0, 0, 0, 0.4);
+
+  transition: all 0.8s;
+
+}
