@@ -1,0 +1,248 @@
+body {
+  background:url('http://i.imgur.com/7nKsybG.png') ;
+  background-size: 300px 300px;
+  
+}
+.button{
+
+  text-decoration:none;
+  display: block;
+  color:white;
+  background-color:#2081bd;
+  font-family:'Lobster';
+  font-size:25px;
+  text-align: center;
+
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0px 2px #1a52d0;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.button:active {
+  background-color: #1291ff;
+  box-shadow: 0px 0px #1a52d0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#active {
+  background-color:#ff7200;
+  border-color:#ffbebe;
+  box-shadow: 0px 2px #c76700
+}
+.name {
+  display: block;
+  position: relative;
+  font-size:25px;
+  font-family:'Comfortaa';
+  font-weight: 300;
+  color:white;
+  background-color:rgba(0, 0, 0, 0.4);
+
+  transition: all 0.8s;
+
+}
+.pic1 {
+  margin-top: 25px;
+  text-decoration: none;
+  text-align: center;
+  width:100%;
+  height: 275px;
+  display:inline-block;
+  
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12170533/e37e7942-b54a-11e5-819a-8a447f7eedff.png'); 
+  background-size:100%;
+  
+  border-style: solid;
+  border-radius: 5px;
+  border-color:white;
+  margin-left: -5px;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+  transition: all 0.4s;
+}
+.pic2 {
+  margin-top: 25px;
+  text-decoration: none;
+  text-align: center;
+  width:100%;
+  height: 275px;
+  display:inline-block;
+  background-image: url('http://img12.deviantart.net/921c/i/2016/005/d/5/gemifrap_avatar_by_kostgames-d9mu7kt.png'); 
+  background-size:100%;
+  border-style: solid;
+  border-radius: 5px;
+  border-color:white;
+  margin-left:-5px;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+  transition: all 0.4s;
+}
+.pic3 {
+  margin-top: 25px;
+  text-decoration: none;
+  text-align: center;
+  width:100%;
+  height: 275px;
+  display:inline-block;
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12175066/d9e40bfe-b568-11e5-8346-255e6f98431c.png'); 
+  background-size:100%;
+  background-color: lightgrey;
+  border-style: solid;
+  border-radius: 5px;
+  border-color:white;
+  margin-left:-5px;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+  transition: all 0.4s;
+}
+.pic4 {
+  margin-top: 25px;
+  text-decoration: none;
+  text-align: center;
+  width:100%;
+  height: 300px;
+  display:inline-block;
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12175135/4c07cad6-b569-11e5-86a9-58f30227993b.png'); 
+  background-size:100%;
+  background-color: lightgrey;
+  border-style: solid;
+  border-radius: 5px;
+  border-color:white;
+  margin-left:-5px;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+  transition: all 0.4s;
+}
+.pic5 {
+  margin-top: 25px;
+  text-decoration: none;
+  text-align: center;
+  width:100%;
+  height: 300px;
+  display:inline-block;
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12175200/a9487934-b569-11e5-90fc-5290f2182d2a.png'); 
+  background-size:100%;
+  background-color: lightgrey;
+  border-style: solid;
+  border-radius: 5px;
+  border-color:white;
+  margin-left:-5px;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+  transition: all 0.4s;
+}
+.pic6 {
+  margin-top: 25px;
+  text-decoration: none;
+  text-align: center;
+  width:300px;
+  height: 300px;
+  display:inline-block;
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12175324/3128f87e-b56a-11e5-8de2-7634c2bbfcde.png'); 
+  background-size:300px;
+  background-color: lightgrey;
+  border-style: solid;
+  border-radius: 5px;
+  border-color:white;
+  margin-left:100px;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+  transition: all 0.4s;
+}
+.pic7 {
+  margin-top: 25px;
+  text-decoration: none;
+  text-align: center;
+  width:300px;
+  height: 300px;
+  display:inline-block;
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12178422/08493dfa-b57a-11e5-99d7-d89f16976f51.png'); 
+  background-size:300px;
+  background-color: lightgrey;
+  border-style: solid;
+  border-radius: 5px;
+  border-color:white;
+  margin-left:100px;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+  transition: all 0.4s;
+}
+.pic8 {
+  margin-top: 25px;
+  text-decoration: none;
+  text-align: center;
+  width:300px;
+  height: 300px;
+  display:inline-block;
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12178552/bf2a09b4-b57a-11e5-98d9-e3feb81c67dd.png'); 
+  background-size:300px;
+  background-color: lightgrey;
+  border-style: solid;
+  border-radius: 5px;
+  border-color:white;
+  margin-left:100px;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+  transition: all 0.4s;
+}
+.pic9 {
+  margin-top: 25px;
+  text-decoration: none;
+  text-align: center;
+  width:300px;
+  height: 300px;
+  display:inline-block;
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12201320/4f8d8ef2-b62c-11e5-841a-0fbe28564d1e.png'); 
+  background-size:300px;
+  background-color: lightgrey;
+  border-style: solid;
+  border-radius: 5px;
+  border-color:white;
+  margin-left:100px;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+  transition: all 0.4s;
+}
+.pic10 {
+  margin-top: 25px;
+  text-decoration: none;
+  text-align: center;
+  width:300px;
+  height: 300px;
+  display:inline-block;
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12215535/6b745658-b6c9-11e5-932d-62a274e47dd4.png'); 
+  background-size:300px;
+  background-color: lightgrey;
+  border-style: solid;
+  border-radius: 5px;
+  border-color:white;
+  margin-left:100px;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+  transition: all 0.4s;
+}
+
+.pic11 {
+  margin-top: 25px;
+  text-decoration: none;
+  text-align: center;
+  width:300px;
+  height: 300px;
+  display:inline-block;
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12215551/0c5b4194-b6ca-11e5-9ab0-a5d7d37149a8.png'); 
+  background-size:300px;
+  background-color: lightgrey;
+  border-style: solid;
+  border-radius: 5px;
+  border-color:white;
+  margin-left:100px;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+  transition: all 0.4s;
+}
+.pic12 {
+  margin-top: 25px;
+  text-decoration: none;
+  text-align: center;
+  width:300px;
+  height: 300px;
+  display:inline-block;
+  background-image: url('https://cloud.githubusercontent.com/assets/14951831/12215562/686ae48a-b6ca-11e5-96cd-8f1b6b08a011.png'); 
+  background-size:300px;
+  background-color: lightgrey;
+  border-style: solid;
+  border-radius: 5px;
+  border-color:white;
+  margin-left:100px;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.43);
+  transition: all 0.4s;
+}
