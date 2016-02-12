@@ -10,6 +10,46 @@
   <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Sarala' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" media="screen and (max-width:480px)" ></script>
+  <script >
+
+
+
+    $(document).ready(function(){
+      if ($(window).width() >= 479) {
+
+
+        $(".twd").animate({
+          
+          opacity:'1'
+        }, "fast");
+        $(".subtitle").delay(500).animate({
+          opacity:'1'
+
+        }, "slow");
+        $(".hr").delay(500).animate({
+          width:'75%'
+
+        }, "fast");
+       
+      
+      };
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+
+
+  </script>
 </head>
 <body>
 <div class="nav">
@@ -26,7 +66,7 @@
     <span class="twd">
       &#60;| TWD |&#62;<br><hr class="hr">
       </span><br>
-    <span class="subtitle">THE Ultimate Team</span>
+    <span class="subtitle"><span class="the">THE </span>Ultimate Team</span>
   </center>
   
 </body>
