@@ -3,7 +3,7 @@ body {
 }
 /* #9B3133  #C1A580 */
 .btn {
-  
+ 
   
  text-decoration: none;
   color:white;
@@ -26,11 +26,14 @@ transition: all .25s;
   box-shadow:  black;
 }
 .twd {
+  opacity:0;
   color:#C1A580;
   font-family:'Passion One';
   font-size:120px;
   position:relative;
   top:250px;
+  text-shadow: 0px 2px 5px #3c3c3c;
+  transition: all .25s ease-in-out;
 }
 .hr {
  height:5px;
@@ -39,13 +42,18 @@ transition: all .25s;
   width:0%;
   transition: all .25s ease-in-out;
 }
-.twd:hover .hr {
- width:70%; 
+
+.twd:hover {
+  color:#d1b187;
 }
 .subtitle {
   position:relative;
   top:150px;
+  opacity:0;
  color:white;
   font-size:50px;
   font-family:'Sarala';
+}
+.the {
+  color:#C1A580; 
 }
