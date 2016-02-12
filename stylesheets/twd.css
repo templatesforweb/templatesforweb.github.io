@@ -1,0 +1,51 @@
+body {
+ background-color:#484848 ;
+}
+/* #9B3133  #C1A580 */
+.btn {
+  
+  
+ text-decoration: none;
+  color:white;
+  font-size:35px;
+  font-family: 'Passion One';
+  display:inline-block;
+ 
+  float:left;
+  width: calc(100% / 5 - 1px);
+  text-align: center;
+  line-height: 80px;
+transition: all .25s;
+ 
+}
+.btn:hover {
+  
+  box-shadow: inset 0px -5px #C1A580; 
+  background-color:#505050;
+  color:#C1A580;
+  box-shadow:  black;
+}
+.twd {
+  color:#C1A580;
+  font-family:'Passion One';
+  font-size:120px;
+  position:relative;
+  top:250px;
+}
+.hr {
+ height:5px;
+  background-color:#C1A580;
+  border:0;
+  width:0%;
+  transition: all .25s ease-in-out;
+}
+.twd:hover .hr {
+ width:70%; 
+}
+.subtitle {
+  position:relative;
+  top:150px;
+ color:white;
+  font-size:50px;
+  font-family:'Sarala';
+}
