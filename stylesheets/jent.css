@@ -1,0 +1,39 @@
+body {
+  background-color: #404C50;
+  background-image: url('https://cloud.githubusercontent.com/assets/16139384/12919302/2979d232-cf4c-11e5-97f3-31dd30ad1be6.png');
+  background-position:top;
+  background-size: 2300px 2300px;
+}
+.btn {
+ color:white;
+  text-decoration:none;
+  font-size:30px;
+  background-color:#de5750;
+  font-family:'Comfortaa';
+  width:calc(100%/5);
+  display:inline-block ; 
+  text-align: center;
+  float:left;
+  line-height: 60px;
+  vertical-align: middle;
+  margin:0;
+  padding:0;
+ 
+  border-radius:3px;
+  margin-left:-4px;
+  box-shadow:inset 0px -3px #de5750 ;
+  transition: all .4s ;
+  
+}
+.btn:hover {
+ background-color:white;
+  color:#de5750;
+  box-shadow:inset 0px -3px #de5750 , 0px 0px 11px 0px rgba(0,0,0,0.43);
+  width:calc(100%/5 - 5px)
+}
+.home {
+ font-weight:700; 
+}
+.nav {
+ width:100%; 
+}
