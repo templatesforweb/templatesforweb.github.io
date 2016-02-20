@@ -1,0 +1,27 @@
+
+body {
+background-color: #d9d9d9;
+}
+.nav{
+  position:absolute;
+  width:100%;
+  left:0;
+  top:0;
+}
+.btn {
+ text-decoration:none;
+  color:white;
+  font-size:30px;
+  width: calc(100% / 5);
+  display:inline-block;
+  background-color: #7B3AB7;
+  float: left;
+  text-align:center;
+  line-height:60px;
+  font-family:'Comfortaa';
+  overflow:hidden;
+  transition:all .25s ease-in-out;
+}
+.btn:hover {
+  text-shadow: 1px 1px rgb(95, 34, 151), 2px 2px rgb(95, 34, 151), 3px 3px rgb(95, 34, 151), 4px 4px rgb(95, 34, 151), 5px 5px rgb(95, 34, 151), 6px 6px rgb(95, 34, 151), 7px 7px rgb(95, 34, 151), 8px 8px rgb(95, 34, 151), 9px 9px rgb(95, 34, 151), 10px 10px rgb(95, 34, 151), 11px 11px rgb(95, 34, 151), 12px 12px rgb(95, 34, 151), 13px 13px rgb(95, 34, 151), 14px 14px rgb(95, 34, 151), 15px 15px rgb(95, 34, 151), 16px 16px rgb(95, 34, 151), 17px 17px rgb(95, 34, 151), 18px 18px rgb(95, 34, 151), 19px 19px rgb(95, 34, 151), 20px 20px rgb(95, 34, 151), 21px 21px rgb(95, 34, 151), 22px 22px rgb(95, 34, 151), 23px 23px rgb(95, 34, 151), 24px 24px rgb(95, 34, 151), 25px 25px rgb(95, 34, 151), 26px 26px rgb(95, 34, 151), 27px 27px rgb(95, 34, 151), 28px 28px rgb(95, 34, 151), 29px 29px rgb(95, 34, 151), 30px 30px rgb(95, 34, 151), 31px 31px rgb(95, 34, 151), 32px 32px rgb(95, 34, 151); 
+}
