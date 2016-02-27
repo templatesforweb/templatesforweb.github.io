@@ -10,15 +10,24 @@ body {
   position:absolute;
   left:0;
   top:0;
-  background-color:#536DFE;
+  background-image:url(http://www.thegeniusworks.com/wp-content/uploads/2015/12/Dubai1.jpg);
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
 }
 .second {
  height:100%;
   width:100%;
-  background-color:#4CAF50;
+  background-image:url(https://dubai-travel.ae/wp-content/uploads/2015/03/Dubai-Marina.jpg);
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
   position:absolute;
   left:0;
   top:100%;
+  
 }
 .third {
  height:100%;
