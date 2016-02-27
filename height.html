@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Made with Thimble</title>
+  <link rel="stylesheet" href="stylesheets/height.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" media="screen and (max-width:480px)" ></script>
+  <script >
+    
+     
+        
+      $(document).ready(function(){
+        if ($(window).width() >= 479) {
+
+
+        $(".frozo").animate({
+          top:'200px',
+          opacity:'1'
+        }, "slow");
+        $(".fb").delay(1200).animate({
+          opacity:'1'
+
+        }, "fast");
+        $(".twitter").delay(1600).animate({
+          opacity:'1'
+
+        }, "fast");
+          $(".email").delay(1800).animate({
+            opacity:'1'
+
+          }, "fast");
+        $(".gplus").delay(1400).animate({
+          opacity:'1'
+
+        }, "fast");
+        
+        $(".subtitle").delay(1000).animate({
+
+          opacity:'1'
+        }, "slow");
+          $(".nav").delay(1100).animate({
+
+            opacity:'1'
+          }, "slow");
+          $(".nav").delay(1100).animate({
+
+            opacity:'1'
+          }, "slow");
+        };
+        $('a[href*="#"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+   
+    
+  </script>
+</head>
+<body>
+
+  <div class="first">
+    <a href="#sec">Second</a>
+  </div>
+<div class="second" id="sec">
+  
+  </div>
+  <div class="third">
+    
+  </div>
+</body>
+</html>
