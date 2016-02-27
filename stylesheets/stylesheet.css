@@ -20,7 +20,7 @@
     margin-bottom:30px;
     box-shadow: 0px 4px #00c853;
     font-family:'Comfortaa';
-    transition: all 0.4s;
+    transition: all 0.25s ease-in-out;
 }         
 .btn:hover {
 width:200px;
