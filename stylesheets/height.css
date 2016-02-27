@@ -1,0 +1,31 @@
+html, body {
+ height:100%; 
+}
+body {
+  background-color:#3f3f3f;  
+}
+.first {
+ height:100%;
+  width:100%;
+  position:absolute;
+  left:0;
+  top:0;
+  background-color:#536DFE;
+}
+.second {
+ height:100%;
+  width:100%;
+  background-color:#4CAF50;
+  position:absolute;
+  left:0;
+  top:100%;
+  
+}
+.third {
+ height:100%;
+  width:100%;
+  background-color:#FBC02D;
+  position:absolute;
+  left:0;
+  top:200%;
+}
