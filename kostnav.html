@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>kost games material navbar beta</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+<style>
+
+body {
+background-color:#dddddd;
+margin: 0;
+}
+html, body {
+ height:100%; 
+}
+.nav {
+ position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);}
+.btn {
+ text-decoration:none;
+  text-align:center;
+  display:inline-block;
+  width: calc(100% / 6);
+  float: right;
+  background-color:#2196F3;
+  color:white;
+  position: relative;
+  line-height:60px;
+  font-family:'roboto';
+  font-size:15px;
+  z-index: +1;
+  transition: all .25s ease-in-out;
+}
+.ef::before {
+ content: '';
+  position:absolute;
+  bottom:0;
+  width:0px;
+  height:5px;
+  background-color:white;
+  left:50%;
+  transition: all .25s ease-in-out;
+}
+.ef:hover::before {
+ left:0;
+  width:100%;
+}
+.efside::before {
+  content: '';
+  position:absolute;
+  left:0;
+  width:5px;
+  height:0;
+  background-color:white;
+  top:50%;
+  transition: all .25s ease-in-out;
+}
+.efside::after {
+  content: '';
+  position:absolute;
+  right:0;
+  width:5px;
+  height:0;
+  background-color:white;
+  top:50%;
+  transition: all .25s ease-in-out;
+}
+.efside:hover::before, .efside:hover::after {
+ top:0; 
+  height: 100%;
+}
+.infohid {
+ position:fixed;
+  top:0;
+  left:0;
+  display: none;
+  width: calc(100%/6 * 5);
+  transition: all .25s ease-in-out;
+}
+.infohid:hover {
+  display: inline;
+}
+.btn:hover + .infohid {
+  display: inline;
+}
+.info {
+  text-decoration:none;
+  text-align:center;
+  display:block;
+  width: calc(100% / 5);
+  background-color:#2196F3;
+  color:white;
+  top:60px;
+  position: relative;
+  left:calc(100% / 5 * 4) ;
+  line-height:60px;
+  font-family:'roboto';
+  font-size:15px;
+  transition: all .25s ease-in-out;
+}
+
+
+.hiden {
+  position:fixed;
+  top:0;
+  left:0;
+  display: none;
+  width: calc(100%/6 * 5);
+  transition: all .25s ease-in-out;
+}
+.hiden:hover {
+  display: inline;
+}
+.btn:hover + .hiden {
+  display: inline;
+}
+.hi {
+  text-decoration:none;
+  text-align:center;
+  display:block;
+  width: calc(100% / 5);
+  background-color:#2196F3;
+  color:white;
+  top:60px;
+  position: relative;
+  left:calc(100% / 5 * 2) ;
+  line-height:60px;
+  font-family:'roboto';
+  font-size:15px;
+  transition: all .25s ease-in-out;
+}
+
+
+
+</style>
+</head>
+<body>
+<div class="navwrap">
+  
+  
+<div class="nav">
+<a href="#" class="btn ef">Find me</a>
+  <a href="#" class="btn ef">Info</a>
+  <div class="infohid">
+    <a href="#" class="faq info efside">FAQ</a>
+    <a href="#" class="soft info efside">My Software</a>
+    <a href="#" class="hard info efside">My Hardware</a>
+  </div>
+  <a href="#" class="btn ef">About Me</a>
+  <a href="#" class="btn ef">Gallery</a>
+  <div class="hiden">
+    <a href="#" class="faq hi efside">Banners</a>
+    <a href="#" class="soft hi efside">Minecraft Avatars</a>
+    <a href="#" class="hard hi efside">Server Logos</a>
+  </div>
+  <a href="#" class="btn ef">My Videos</a>
+  <a href="#" class="btn ef">Home</a>
+ 
+  </div>
+
+  </div>
+ 
+<hr style="position:relative;top:1500px;">
+</body>
+</html>
