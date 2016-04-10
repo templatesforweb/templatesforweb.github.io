@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kost Games - Banners</title>
+<style>
+body {
+  background-color:#dddddd;
+  margin: 0;
+  font-family: 'roboto', sans-serif;
+}
+html, body {
+  height:100%; 
+}
+
+/* Navigation bary styling */
+
+.nav {
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+z-index: +9999;
+}
+.btn {
+  text-decoration:none;
+  text-align:center;
+  display:inline-block;
+  width: calc(100% / 6);
+  float: right;
+  background-color:#278ACF;
+  color:white;
+  position: relative;
+  line-height:60px;
+  font-family:'roboto';
+  font-weight: 400;
+  font-size:23px;
+  font-weight: 300;
+  z-index: +1;
+  transition: all .25s ease-in-out;
+}
+.btn:hover {
+  background-color:#448AFF;
+
+}
+.ef::before {
+  content: '';
+  position:absolute;
+  bottom:0;
+  width:0px;
+  height:5px;
+  background-color:white;
+  left:50%;
+  transition: all .25s ease-in-out;
+}
+.ef:hover::before {
+  left:0;
+  width:100%;
+}
+.efside::before {
+  content: '';
+  position:absolute;
+  left:0;
+  width:5px;
+  height:0;
+  background-color:white;
+  top:50%;
+  transition: all .25s ease-in-out;
+}
+.efside::after {
+  content: '';
+  position:absolute;
+  right:0;
+  width:5px;
+  height:0;
+  background-color:white;
+  top:50%;
+  transition: all .25s ease-in-out;
+}
+.efside:hover::before, .efside:hover::after {
+  top:0; 
+  height: 100%;
+}
+.infohid {
+  position:fixed;
+  top:0;
+  left:0;
+  display: none;
+  width: calc(100%/6 * 5);
+  transition: all .25s ease-in-out;
+}
+.infohid:hover {
+  display: inline;
+
+}
+.btn:hover + .infohid {
+  display: inline;
+}
+.info {
+  text-decoration:none;
+  text-align:center;
+  display:block;
+  width: calc(100% / 5);
+  background-color:#2196F3;
+  color:#d8d8d8;
+  top:60px;
+  position: relative;
+  left:calc(100% / 5 * 4) ;
+  line-height:60px;
+  font-family:'roboto';
+  font-size:15px;
+  transition: all .25s ease-in-out;
+}
+.info:hover {
+  color:white;
+  background-color:#1288e6;
+  box-shadow:inset 0 1px 4px 0 rgba(0, 0, 0, 0.27);
+}
+
+.galhid {
+  position:fixed;
+  top:0;
+  left:0;
+  display: none;
+  width: calc(100%/6 * 5);
+  transition: all .25s ease-in-out;
+}
+.galhid:hover {
+  display: inline;
+}
+.btn:hover + .galhid {
+  display: inline;
+}
+.galb {
+  text-decoration:none;
+  text-align:center;
+  display:block;
+  width: calc(100% / 5);
+  background-color:#2196F3;
+  color:#d8d8d8;
+  top:60px;
+  position: relative;
+  left:calc(100% / 5 * 2) ;
+  line-height:60px;
+  font-family:'roboto';
+  font-size:15px;
+  transition: all .25s ease-in-out;
+}
+.galb:hover {
+  color:white;
+  background-color:#1288e6;
+  box-shadow:inset 0 1px 4px 0 rgba(0, 0, 0, 0.27);
+}
+
+
+/* Main page styling */
+
+
+.banners {
+ position: absolute;
+  width:100%;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+.ban {
+ display: block;
+  position: relative;
+  top:175px;
+  left:2.5%;
+  width:95%;
+  margin-top: 25px;
+  line-height:16vw;
+  background-color:white;
+
+  background-position:center center;;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.ban::after {
+ content: '';
+  position:absolute;
+  left:0;
+  top:0;
+  height:100%;
+  width:0;
+  z-index: 1;
+  background-color: rgba(9, 164, 249, 0.75);
+  transition: all .35s ease-in-out;
+}
+.ban::before {
+ content: '';
+  position:absolute;
+  right:0;
+  top:0;
+  height: 100%;
+  width:0;
+  z-index: +2;
+  background-color: rgba(255, 255, 255, 0.73);
+  transition: all .35s ease-in-out;
+}
+
+.ban:hover::after {
+ width:50%; 
+}
+.ban:hover::before {
+ width:50%; 
+}
+
+.bantext {
+  font-family: 'roboto';
+  font-weight:300;
+  position: relative;
+  color:white;
+  font-size: 30px;
+  z-index: +5;
+  opacity: 0;
+  transition: all .35s ease-in-out;
+}
+.banright {
+position: absolute;
+  height:100% ;
+  right:0%;
+  font-size: 40px;
+  color:#505050;
+  z-index: +5;
+}
+.banleft {
+  position: relative;
+  height:100% ;
+  left:-40%;
+  z-index: +21;
+  font-size: 50px;
+;
+}
+.ban:hover .bantext {
+ opacity: 1; 
+}
+.ban:hover .banright {
+ right:10%; 
+}
+.ban:hover .banleft {
+ left:-25% 
+}
+
+/* unique classes background-image */
+
+.bilyolo {
+  background-image: url(https://yt3.ggpht.com/-gWWUb5MwBOU/VtxzM0f0KyI/AAAAAAAAAw0/dvtIhjdb9uA/w2120-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no/BilYolo%2BBanner%2B1%25282%2529%2B%25281%2529.png);
+}
+.gemifrap {
+  background-image: url(https://yt3.ggpht.com/-AbhGnmoV5m4/VqJH9epqqZI/AAAAAAAAAkY/_eRi5WHj-MQ/w2120-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no/GemiFrap%2BBanner.png);
+}
+
+
+
+
+</style>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+  <div class="nav">
+    <a href="#" class="btn ef">Find me</a>
+    <a href="#" class="btn ef">Info</a>
+    <div class="infohid">
+      <a href="#" class="faq info efside">FAQ</a>
+      <a href="#" class="soft info efside">My Software</a>
+      <a href="#" class="hard info efside">My Hardware</a>
+    </div>
+    <a href="#" class="btn ef">About Me</a>
+    <a href="#" class="btn ef">Gallery</a>
+    <div class="galhid">
+      <a href="#" class="faq galb efside">Banners</a>
+      <a href="#" class="soft galb efside">Minecraft Avatars</a>
+      <a href="#" class="hard galb efside">Server Logos</a>
+      
+    </div>
+    <a href="#" class="btn ef">My Videos</a>
+    <a href="#" class="btn ef">Home</a>
+
+  </div>
+<div class="banners">
+  
+  <div class="ban bilyolo">
+    <span class="bantext banleft">BilYolo</span>
+    <span class="bantext banright">Minecraft Drawn Banner</span>
+  </div>
+  <div class="ban gemifrap">
+    <span class="bantext banleft">GemiFrap</span>
+    <span class="bantext banright">Minecraft Drawn Banner</span>
+  </div>
+  
+  
+  </div>
+
+
+  <hr style="position:relative;top:1500px;">
+</body>
+</html>
