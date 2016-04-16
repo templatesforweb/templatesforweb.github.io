@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kost Games - FAQ</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  body {
+  background-color:#dddddd;
+  margin: 0;
+  padding:0;
+  font-family: sans-serif;
+}
+html, body {
+  height:100%; 
+}
+.nav {
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: +9999;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);}
+.btn {
+  text-decoration:none;
+  text-align:center;
+  display:inline-block;
+  width: calc(100% / 6);
+  float: right;
+  background-color:#278ACF;
+  color:white;
+  position: relative;
+  line-height:60px;
+  font-family:'roboto';
+  font-weight: 400;
+  font-size:23px;
+  font-weight: 300;
+  z-index: +1;
+  transition: all .25s ease-in-out;
+}
+.btn:hover {
+  background-color:#448AFF;
+
+}
+.ef::before {
+  content: '';
+  position:absolute;
+  bottom:0;
+  width:0px;
+  height:5px;
+  background-color:white;
+  left:50%;
+  transition: all .25s ease-in-out;
+}
+.ef:hover::before {
+  left:0;
+  width:100%;
+}
+.efside::before {
+  content: '';
+  position:absolute;
+  left:0;
+  width:5px;
+  height:0;
+  background-color:white;
+  top:50%;
+  transition: all .25s ease-in-out;
+}
+.efside::after {
+  content: '';
+  position:absolute;
+  right:0;
+  width:5px;
+  height:0;
+  background-color:white;
+  top:50%;
+  transition: all .25s ease-in-out;
+}
+.efside:hover::before, .efside:hover::after {
+  top:0; 
+  height: 100%;
+}
+.infohid {
+  position:fixed;
+  top:0;
+  left:calc(100% / 6 *4);
+  height: 240px;
+  display: none;
+  width: calc(100%/ 6 );
+  transition: all .25s ease-in-out;
+}
+.infohid:hover {
+  display: inline;
+
+}
+.btn:hover + .infohid {
+  display: inline;
+}
+.info {
+  text-decoration:none;
+  text-align:center;
+  display:block;
+  width: calc(100%);
+  background-color:#2196F3;
+  color:#d8d8d8;
+  top:60px;
+  position: relative;
+
+  line-height:60px;
+  font-family:'roboto';
+  font-size:15px;
+  transition: all .25s ease-in-out;
+}
+.info:hover {
+  color:white;
+  background-color:#1288e6;
+  box-shadow:inset 0 1px 4px 0 rgba(0, 0, 0, 0.27);
+}
+
+.galhid {
+  position:fixed;
+  top:0;
+  left:calc(100% / 6 *2);
+  width: calc(100%/ 6 );
+  display: none;
+  transition: all .25s ease-in-out;
+}
+.galhid:hover {
+  display: inline;
+}
+.btn:hover + .galhid {
+  display: inline;
+}
+.galb {
+  text-decoration:none;
+  text-align:center;
+  display:block;
+  width: 100%;
+  background-color:#2196F3;
+  color:#d8d8d8;
+  top:60px;
+  position: relative;
+  line-height:60px;
+  font-family:'roboto';
+  font-size:15px;
+  transition: all .25s ease-in-out;
+}
+.galb:hover {
+  color:white;
+  background-color:#1288e6;
+  box-shadow:inset 0 1px 4px 0 rgba(0, 0, 0, 0.27);
+}
+
+
+
+/*  Main Page styling */
+
+
+
+
+
+
+.quest {
+  position:relative;
+  top:230px;
+  text-align: center;
+  width:30%;
+  margin-left: 2%;
+  display: inline-block;
+}
+.qa {
+ position: relative;
+cursor: default;
+ width:100%;;
+  display: block;
+  border-radius:3px;
+  text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.09),0 3px 1px -2px rgba(0,0,0,0.2),0 1px 5px 0 rgba(0,0,0,0.12); 
+  transition: all .25s ease-in-out;
+}
+
+.qa > span {
+ position: relative;
+  font-size:25px;
+  font-family: 'roboto';
+  line-height: 60px;
+}
+.q {
+  background-color:#ebebeb; 
+  color:#278ACF;
+  margin-bottom: 10px;
+}
+.a {
+  background-color:#278ACF; 
+  color:white;
+}
+
+  </style>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic&subset=latin,greek' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+  <div class="nav">
+    <a href="#" class="btn ef">Find me</a>
+    <a href="#" class="btn ef">Info</a>
+    <div class="infohid">
+      <a href="#" class="faq info efside">FAQ</a>
+      <a href="#" class="soft info efside">My Software</a>
+      <a href="#" class="hard info efside">My Hardware</a>
+    </div>
+    <a href="#" class="btn ef">About Me</a>
+    <a href="#" class="btn ef">Gallery</a>
+    <div class="galhid">
+      <a href="#" class="faq galb efside">Banners</a>
+      <a href="#" class="soft galb efside">Minecraft Avatars</a>
+      <a href="#" class="hard galb efside">Server Logos</a>
+    </div>
+    <a href="#" class="btn ef">My Videos</a>
+    <a href="#" class="btn ef">Home</a>
+
+  </div>
+
+  
+  <div class="quest">
+    <div class="qa q">
+      <span><span style="font-weight:300;">Q:</span> Μπορείς να μου φτιάξεις ένα art?</span>
+    </div>
+    <div class="qa a">
+      <span><span style="font-weight:300;">A:</span> Αγόρασε ένα <a href="https://goo.gl/GljplG" target="_blank" style="color:white;"><u><b>εδώ</b></u></a>.</span>
+    </div>
+  </div>
+  <div class="quest">
+    <div class="qa q">
+      <span><span style="font-weight:300;">Q:</span> Θες να κάνουμε dual?</span>
+    </div>
+    <div class="qa a">
+      <span><span style="font-weight:300;">A:</span> Άμα μ'αρεσει η δουλειά σου γιατί όχι ;)</span>
+    </div>
+  </div>
+  <div class="quest">
+    <div class="qa q">
+      <span><span style="font-weight:300;">Q:</span> Μπορώ να σε πληρώσω με paysafe?</span>
+    </div>
+    <div class="qa a">
+      <span><span style="font-weight:300;">A:</span> Όχι, μόνο PayPal.</span>
+    </div>
+  </div>
+
+</body>
+</html>
