@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CCs</title>
+<style>
+body {
+  font-family: sans-serif;
+  margin:0;
+  padding:0;
+  background-color:#e6e6e6;
+}
+html, body {
+ height:100%;
+  width:100%;
+}
+
+.box {
+ position: relative;
+  width:30%;
+  height:25%;
+  background-color:black;
+  margin-top:30px;
+  margin-left:35px;
+  border-radius: 3px;
+  display: inline-block;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+  transition: all .25s ease-in-out;
+}
+.box:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); 
+}
+.inbox {
+ position:absolute;
+  width:50%;
+  height:100%;
+  top:0;
+}
+.left {
+left:0;
+}
+
+.right {
+ right:0; 
+}
+
+</style>
+</head>
+<body>
+<div class="box">
+  <span class="inbox left" style="background-color:#34373F;"></span>
+  <span class="inbox right" style="background-color:#FFCD54;"></span>
+  </div>
+  <div class="box">
+    <span class="inbox left" style="background-color:#3D3D3D;"></span>
+    <span class="inbox right" style="background-color:#EF5350;"></span>
+  </div>
+  <div class="box">
+    <span class="inbox left" style="background-color:white;"></span>
+    <span class="inbox right" style="background-color:#607D8B;"></span>
+  </div>
+  <div class="box">
+    <span class="inbox left" style="background-color:#37474F;"></span>
+    <span class="inbox right" style="background-color:#2979FF;"></span>
+  </div>
+  
+
+</body>
+</html>
