@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+  <head>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <style>
+    html, body{
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+h1{
+  border-left: 3px solid #3498db;
+  font-size: 48px;
+  font-weight: 400;
+  padding-left: 20px;
+
+}
+
+.main{
+    margin-top: 80px;
+}
+
+
+form input{
+  background-color: lightgrey;
+  border-left: 3px solid white;
+  border: none;
+  font-size: 36px;
+  padding: 20px;
+  width: 100%;
+  outline: none;
+  transition: background 1s, border-left 1s;
+}
+
+form input:focus {
+  background: white;
+  border-left: solid 2px #000;
+  box-shadow: none;
+  outline: none;
+  transition: background 1s, border-left 1s;
+}
+
+
+button.btn {
+  background: transparent;
+  border: none;
+
+  color: #3498db;
+  cursor: pointer;
+
+  font-size: 36px;
+
+  padding: 20px 24px;
+}
+
+button.btn:hover{
+  background-color: #3498db;
+  color: white;
+
+  transition: background 1s, color 1s;
+}
+
+.comments {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0px;
+
+}
+
+li{
+  padding-left: 20px;
+  border-left: 3px solid lightgrey;
+  font-size: 36px;
+  margin-top: 10px;
+}
+    </style>
+    <script>
+      var main = function(){
+
+    $('form').submit(function(event){
+      var $input = $(event.target).find('input');
+      var comment = $input.val();
+
+      if (comment != ""){
+        var html = $('<li>').text(comment);
+        html.prependTo('#comments');
+        $input.val("");
+      }
+
+      return false;
+    });
+
+}
+
+$(document).ready(main);
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h1>threadly</h1>
+
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="container">
+        <div class="row">
+          <form class="form">
+            <div class="col-xs-8 col-md-10">
+              <input id="comment" type="text" placeholder="share your thoughts">
+            </div>
+            <div class="col-xs-4 col-md-2">
+              <button type="submit" class="btn">post!</button>
+            </div>
+          </form>
+        </div>
+          <ul class="comments" id="comments">
+
+            <li>Hello World!<li>
+            <li>foo bar<li>
+
+          </ul>
+
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>
