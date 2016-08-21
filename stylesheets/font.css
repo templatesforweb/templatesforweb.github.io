@@ -1,12 +1,11 @@
 @font-face {
-  font-family: "geosanslight-nmsregular";
-  font-style: normal;
-  font-weight: normal;
-  src: url("http://www.no-mans-sky.com/elk/wp-content/themes/nomanssky/fonts/geonms-webfont.eot?#iefix") format("embedded-opentype"), url("http://www.no-mans-sky.com/elk/wp-content/themes/nomanssky/fonts/geonms-webfont.woff") format("woff"), url("http://www.no-mans-sky.com/elk/wp-content/themes/nomanssky/fonts/geonms-webfont.ttf") format("truetype"), url("http://www.no-mans-sky.com/elk/wp-content/themes/nomanssky/fonts/geonms-webfont.svg#geosanslight-nmsregular") format("svg");
+  font-family: "LemonMilk";
+
+  src: url("LemonMilk.otf")";
 }
 
 .h1 {
 background-color:darkgrey;
 color:white;
-font-famiy:"geosanslight-nmsregular";
+font-famiy:"LemonMilk";
 }
