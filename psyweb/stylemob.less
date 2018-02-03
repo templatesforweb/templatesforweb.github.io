@@ -1,0 +1,35 @@
+@dark: #263238;
+@light: #4f5b61;
+@smoke: #ECEFF1;
+@smartphone: ~"screen and (max-width:480px)";
+* {
+  box-sizing: border-box;
+}
+.transition {
+  transition: all .15s;
+}
+.margin-clear {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@font-face {
+  font-family: 'Arcon';
+  src:url(Arcon-Regular.otf);
+}
+body {
+  margin:0;
+  padding:0;
+  width:100%;
+  font-family: sans-serif;
+  background-color: @dark;
+}
+.header {
+  position: relative;
+  font-family: 'Arcon';
+  color:white;
+  .margin-clear;
+  display: inline-block;
+  width:100%;
+  text-align: center;
+  background-color:red;
+}
